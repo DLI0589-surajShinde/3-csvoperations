@@ -38,4 +38,9 @@ public class EmployeeService {
         }
         return log;
     }
+
+
+    public List<Employee> getAllEmployee(){
+        return employeeRepository.findAll();
+    }
 }
